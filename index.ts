@@ -5,7 +5,6 @@ const PORT = 4000;
 
 // app.get("/", (req: Request, res: Response) => {
 app.get("/", (req, res) => {
-  // res.send("Hello There...");
   res.json({msg: "Hello There..."});
 });
 
