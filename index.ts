@@ -15,6 +15,10 @@ app.get("/contact", (req: Request, res: Response) => {
   res.json({ msg: "Contact Page...!" });
 });
 
+app.get("/contact/:id", (req: Request, res: Response) => {
+  res.json({ msg: "Contact Page...!", id: req.params.id });
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
