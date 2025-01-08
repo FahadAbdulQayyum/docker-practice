@@ -1,6 +1,6 @@
 import express from "express";
 const app = express();
-const PORT = 4000 || pro;
+const PORT = 4000 || proc;
 app.get("/", (req, res) => {
     res.json({ msg: "Hello There...!" });
 });
