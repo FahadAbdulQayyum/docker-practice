@@ -1,7 +1,7 @@
 import express, { Request, Response } from "express";
 
 const app = express();
-const PORT = 4000 || process.env.P;
+const PORT = 4000 || process.env.PO;
 
 app.get("/", (req: Request, res: Response) => {
   res.json({ msg: "Hello There...!" });
